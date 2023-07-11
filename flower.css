@@ -1,5 +1,6 @@
 *{
     margin: auto;
+
 }
 
 /*header section styles*/
@@ -16,7 +17,7 @@
     font-size: 80px;
     font-weight: 800;
     text-align: center;
-    padding-left: 285px;
+    padding-left: 200px;
     padding-right: 575px;
     flex-direction: column;
 }
@@ -111,6 +112,14 @@ img{
    
     background: url(<path-to-image>), lightgray 50% / cover no-repeat;
 }
+.pink1{
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    text-decoration-line: underline;
+}
 
 
 .deal{
@@ -130,18 +139,16 @@ img{
     color: #272727;
     font-size: 40px;
     font-weight: 800;
-    padding-left:300px;
-    padding-bottom:30px;
+   text-align: center;
+
 }
 .section-description{
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
     font-size: 18px;
     font-weight: 400;
-    padding-left: 289px;
-    padding-right: 350px;
-    padding-bottom: 10px;
-
+   
+   
 }
 .text-style{
     color:red;
@@ -165,7 +172,10 @@ img{
 .social-link{
     width:900px ;
     height:450px;
-    margin-left: 200px;
+    margin-left: 1300px;
+    margin-right:600px;
+    background-size: 700px;
+    
     
 }
 .social-description{
@@ -181,7 +191,8 @@ img{
 .images{
     margin-top: 10px;
    display: flex;
-    gap:110px
+    gap:10px;
+    height:50px;
 }
 .fourth-section{
     margin-top: 500px;
@@ -226,6 +237,9 @@ img{
     text-align: center;
     padding-top: 80px;
 
+}
+.style{
+    color:#fff;
 }
 .footer-description{
     color: rgba(255, 255, 255, 0.90);
