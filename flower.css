@@ -49,13 +49,77 @@ img{
     padding-left: 300px;
     
 }
+/*header section style end*/
+/*main section start */
+
+.first-section{
+    width: 1920px;
+    height: 487px;
+    background-color: #fff;
+}
+
+.first-section-title{
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 50px;
+}
+
+.first-section-description{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    width: 594px;
+    flex-direction: column;
+}
+
+.first-section-images{
+
+    display: flex;
+    
+}
+.png5{
+    width:550px;
+    height:600px;
+    margin-top:10px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    margin-bottom: 20px;
+    margin-left: 100px;
+    
+
+    
+}
+
+.png6{
+    width:550px;
+    height:600px;
+    margin-top:10px;
+    border-radius: 300px 300px 0px 0px;
+    margin-bottom: 20px;
+   
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+.png7{
+    width:550px;
+    height:600px;
+    margin-top:10px;
+    border-radius: 300px 300px 0px 0px;
+    margin-bottom: 20px;
+   
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+
 .deal{
     border-radius: 8px;
     background: rgba(229, 84, 115, 0.05);
     width:1922px;
     height:600px;
     display:flex;
-    margin-top: 100px;
+    margin-top: 300px;
 }
 .image-style{
     height:400px;
@@ -96,10 +160,12 @@ img{
     font-size: 40px;
     font-weight: 800;
     margin-top: 90px;
+    margin-left: 300px;
 }
 .social-link{
-    width:1340px;
+    width:900px ;
     height:450px;
+    margin-left: 200px;
     
 }
 .social-description{
@@ -109,9 +175,11 @@ img{
     font-weight: 400;
     margin-top: 20px;
     margin-bottom: 15px;
+    margin-left: 200px;
+    
 }
 .images{
-    
+    margin-top: 10px;
    display: flex;
     gap:110px
 }
@@ -133,6 +201,7 @@ img{
     text-align: center;
     font-size: 18px;
     font-weight: 400;
+    margin-bottom:20px;
 }
 .contact-style{
     margin-left: 360px;
@@ -140,6 +209,41 @@ img{
 }
 .contact{
     width: 700px;
-    height: 64px;
+    height: 50px;
    
+}
+/*main section end*/
+.footer-section{
+    margin-top: 50px;
+    width: 1922px;
+    height: 449px;
+    background: #111010;
+}
+.footer-title{
+    color: #E55473;
+    font-size: 55px;
+    font-weight: 800;
+    text-align: center;
+    padding-top: 80px;
+
+}
+.footer-description{
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    padding-top:20px;
+    width: 625px;
+    flex-direction: column;
+  
+    
+}
+.last{
+    text-align: center;
+    padding-top:20px;
+    flex-direction: column;
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
 }
