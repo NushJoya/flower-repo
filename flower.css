@@ -36,13 +36,80 @@ img{
    
 }
 .btn{
-  
- background: #E55473;
-   padding: 20px 43px;
- display: inline-flex;
+    background: #E55473;
+    padding: 20px 43px;
+    display: inline-flex;
+    border: none;
+    border-radius: 8px;
+    
 
 }
 .btn-primary{
-    margin-top: 10px;
+    padding-top: 10px;
     padding-left: 300px;
+    
+}
+.deal{
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    width:1800px;
+    height:600px;
+    display:flex;
+    margin-top: 100px;
+}
+.image-style{
+    height:400px;
+    width:300px;
+    margin-right:400px;
+}
+.section-title{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    padding-left:300px;
+    padding-bottom:30px;
+}
+.section-description{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    padding-left: 289px;
+    padding-right: 350px;
+    padding-bottom: 10px;
+
+}
+.text-style{
+    color:red;
+}
+.sign-up-btn{
+    background: #E55473;
+    padding: 20px 43px;
+    display: inline-flex;
+    border: none;
+    border-radius: 8px;
+    margin-left: 450px;
+}
+.title{
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 90px;
+}
+
+.social-description{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 25px;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.images{
+    height:150px;
+    width:250px;
+   display: flex;
+   margin-left: 1310px;
+    gap:145px
 }
